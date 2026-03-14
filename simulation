@@ -1,0 +1,23 @@
+# Lane Changing Management with HMM
+This repository contains the complete implementation of a Hidden Markov Model (HMM) for risk assessment during lane changing maneuvers on highways. The project includes data preprocessing, feature extraction, model training, and evaluation pipelines using the highD drone dataset.
+
+# Repository Structure
+hmm_model.py - HMM implementation with 4 hidden states for risk classification
+
+safety_models.py - Additional models (FSM, RSS, Reg157, CC_human_driver)
+
+data_processor.py - HighD dataset loading, filtering, and synchronization
+
+feature_engineering.py - TTC, DHW, lateral motion intensity calculation
+
+evaluation.py - Metrics, confusion matrices, and visualization
+
+config.py - Hyperparameters and model configuration
+
+# Quick Start
+Simply run the main simulation script:
+
+bash
+python safety_check_runner.py
+This will execute the complete pipeline: load preprocessed data, run the HMM model, perform risk assessment, and display evaluation metrics including accuracy, precision, recall, and F1-score.
+
