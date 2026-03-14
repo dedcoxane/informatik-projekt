@@ -70,7 +70,7 @@ References
 This project builds upon the highD dataset [1] and implements models based on RSS [6], FSM [2], and UNECE R157 [8] specifications. The complete methodology and results are documented in the accompanying thesis.
 
 
-Author: Mohammad Ahmad Khanm
+Author: Mohammad Ahmad Khan
 Supervisor: Prof. Jamal Rayan
 Institution: Frankfurt University of Applied Sciences
 Semester: Winter 2025/2026
